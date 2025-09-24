@@ -1,0 +1,8 @@
+Guna wants to know how to find whether the given values is positive or Negative.could you please help him to find the num type implements in programming.
+a=int(input())
+if(a>0):
+    print(f"The Given Number {a} is Positive.")
+elif(a==0):
+    print(f"The Given Number {a} is Zero.")
+else:
+    print(f"The Given Number {a} is Negative.")
