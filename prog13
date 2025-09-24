@@ -1,0 +1,55 @@
+Maya wants to know how the Numbers are converted to string in the program.could you please help her to implements the program.
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+num = int(input())
+
+if num == 0:
+
+    word = "Zero"
+
+elif num == 1:
+
+    word = "One"
+
+elif num == 2:
+
+    word = "Two"
+
+elif num == 3:
+
+    word = "Three"
+
+elif num == 4:
+
+    word = "Four"
+
+elif num == 5:
+
+    word = "Five"
+
+elif num == 6:
+
+    word = "Six"
+
+elif num == 7:
+
+    word = "Seven"
+
+elif num == 8:
+
+    word = "Eight"
+
+elif num == 9:
+
+    word = "Nine"
+
+else:
+
+    word = None
+
+if word is not None:
+
+    print(f"Integer is {num} and String is {word}")
+
+else:
+
+    print("Invalid Input")
