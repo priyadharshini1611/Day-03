@@ -1,0 +1,13 @@
+Write a Python program to read the monthly salary of a person and his expenses under four categories: bank loan, hostel fees, food expenses, and parents’ support.
+salary=int(input())
+bank=int(input())
+hostel=int(input())
+food=int(input())
+parents=int(input())
+spend=bank+hostel+food+parents
+if(spend<salary):
+    print("He can save money")
+elif(spend==salary):
+        print("He can manage his expense")
+else:
+            print("He want to work hard")
