@@ -1,0 +1,9 @@
+Sanjay wants to learn the calculation of integer digits.could you please help him to implements the sum of digits in programming. Notes:- - If the integer is 45,separate the each digits (4+5) the output is 9.
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n=int(input())
+if(n>=9 and n<=99):
+    a=n//10
+    b=n%10
+    print(f"Sum of Digit {n} is {a+b:03d}")
+else:
+    print("Invalid Input")
