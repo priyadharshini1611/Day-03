@@ -1,0 +1,8 @@
+write the program to find the max valueof two numbers and check whether max value is even or odd.
+a=int(input())
+b=int(input())
+max_value=max(a,b)
+if(max_value %2==0):
+    print("Even")
+else:
+    print("Odd")
