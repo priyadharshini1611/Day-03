@@ -1,0 +1,16 @@
+Write a Python program to read the current balance and perform deposit or withdrawal based on user choice. If deposit, add amount; if withdrawal, check balance and update or show "insuff balance".
+balance_amt= int(input())
+process= int(input())
+if (process ==1):
+ dep_amt=int(input())
+ print ("Deposit")
+ print ("the current balance is", balance_amt + dep_amt)
+elif (process == 2):
+ Withdr_amt=int (input ())
+ print("Withdraw")
+ if (balance_amt > Withdr_amt):
+   print ("The current balance is", balance_emt-Withdr_amt)
+ else:
+    print ("insuff belance")
+else:
+    print("Invalid i/p")
