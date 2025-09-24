@@ -1,0 +1,12 @@
+College Management wants to separate the eligible students for their placement.so find the eligible students for the placement.
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+a=input()
+arr=int(input())
+mark=int(input())
+print(f"Name of the Student:{a}")
+if(arr==1 and mark>70):
+    print(f"{a} is Eligible for Placement")
+elif(arr==1 and arr==2 and mark>75):
+    print(f"{a} is Eligible for Placement")
+else:
+    print(f"{a} is Not Eligible for Placement")
