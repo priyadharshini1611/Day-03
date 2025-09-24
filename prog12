@@ -1,0 +1,5 @@
+Riya wants to find the greatest of three numbers.could you please help her to find the greatest of three numbers that implements in programming.
+a,b,c=int(input()),int(input()),int(input())
+m=max(a,b,c)
+i=3 if c==m else 2 if b==m else 1
+print(f"Number{i} is maximum with value of {m:.1f}")
