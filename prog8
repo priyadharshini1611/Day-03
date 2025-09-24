@@ -1,0 +1,10 @@
+Sela wants to learn the alphabets type to implements in the program.could you please her to implements the program.
+ch=input()
+if (ch.isupper()):
+    print(f"The Given Character {ch} is Upper Case...")
+elif(ch.islower()):
+    print(f"The Given Character {ch} is Lower Case...")
+elif(ch.isdigit()):
+    print(f"The Given Character {ch} is Number...")
+else:
+    print(f"The Given Character {ch} is Symbol...")
